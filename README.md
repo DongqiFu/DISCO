@@ -18,7 +18,7 @@
 * Fifth, run "dimension_redution.py" to reduce the feature dimension by PCA, and train a new classifier (e.g. MuFasa model by "mufasa.py" or MLP by sklearn) on the truncated feature matrix.
 * Sixth, run "other_metrics.py" to test the trained classider in terms of other metrics, like precision, recall, and F1-score.
 
-### Dependency
+#### 3. Required Library
 * numpy 1.20.1
 * scipy 1.6.2
 * pandas 1.2.4

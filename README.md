@@ -19,8 +19,12 @@
 * Sixth, run "other_metrics.py" to test the trained classider in terms of other metrics, like precision, recall, and F1-score.
 
 ### Dependency
-* numpy 1.19.5
+* numpy 1.20.1
+* scipy 1.6.2
 * pandas 1.2.4
 * nltk 3.6.2
 * gensim 4.0.1
-* pytorch 1.6.0
+* CUDA 11.2
+* pytorch 1.9.0
+* torchvision 0.10.0
+* sklearn 0.24.1

@@ -2,7 +2,7 @@
 
 "Disco" is a disinformation detection software demo.
 
-#### Function of Disco
+#### 1. Function of Disco
 * Input: A batch of susceptive information
 
 * Output:
@@ -10,9 +10,7 @@
   * Top k misleading words of each input information 
   * Classification effectiveness, such as accuracy, precision, recall, and F1-score
 
-
-
-
-#### How to run Disco
+#### 2. How to run Disco
+* First put the data file into the "fake_"
 
 #### Acknowledgment

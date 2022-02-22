@@ -26,4 +26,4 @@
 
 #### 4. Techniqual Logic of DISCO
 
-<p align="center"> <img align="center" src="/software_architecture.png" width="1050" height="659"> </p>
+<p align="center"> <img align="center" src="/software_architecture.png" width="525" height="323"> </p>

@@ -1,7 +1,7 @@
 # DISCO
 
 "DISCO" is a disinformation detection toolkit. An online demo video is available [here](https://drive.google.com/file/d/1Nhw1veqjIN9SBz1RLJPDTRVTHuknfjHl).
-<p align="center"> <img align="center" src="/user_interface.jpg" width="1000" height="300"> </p>
+<p align="center"> <img align="center" src="/user_interface.jpg" width="1000" height="400"> </p>
 
 #### 1. Function of DISCO
 * Input: A batch of susceptive information

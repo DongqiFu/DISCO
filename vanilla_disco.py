@@ -99,7 +99,7 @@ def misleading_top_n_words(label, prob, num_nodes, adj_matrix, p_matrix, h_matri
         rm_word = id_2_word[rm_idx]
         word_2_misleading_degree[rm_word] = misleading_degree
 
-    ranking = sorted(word_2_misleading_degree.items(), key=lambda item: item[1])
+    ranking = sorted(word_2_misleading_degree.items(), key=lambda item: item[1], reverse=True)
 
     return ranking
 

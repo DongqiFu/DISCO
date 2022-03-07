@@ -18,13 +18,3 @@ score = clf.score(X_test, y_test)
 print(score)
 
 dump(clf, 'trained-classifier/saved_mlp.joblib')
-
-# ------------------------ run 10 times for average performance ---------------------------
-# k = 10
-# for i in range(k):
-#     print('---------> ' + str(i))
-#     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42)
-#     clf = MLPClassifier(hidden_layer_sizes=(32, 2), activation='relu').fit(X_train, y_train)
-#     score = clf.score(X_test, y_test)
-#     print('------------------> ' + str(score))
-# -----------------------------------------------------------------------------------------

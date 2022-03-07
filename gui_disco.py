@@ -140,7 +140,7 @@ if __name__ == '__main__':
     print("\nLoading Google pre-trained Word2Vec ......\n")
     pretrained_model = KeyedVectors.load_word2vec_format('pretrained-word2vec/GoogleNews-vectors-negative300.bin', binary=True)
 
-    print("\nStarting GUI of DISCSO ......\n")
+    print("\nStarting GUI of DISCO ......\n")
     root = tk.Tk()
     root.geometry('1520x680')
     root.title("DISCO")

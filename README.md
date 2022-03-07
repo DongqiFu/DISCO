@@ -30,3 +30,6 @@
 #### 4. Techniqual Logic of DISCO
 
 <p align="center"> <img align="center" src="/software_architecture.png" width="525" height="323"> </p>
+
+* **Building Word Graph**. We contrust an undirected word graph for each input news article. Briefly, if two words co-occur in a length-specified sliding window, then there will be an edge connecting these two words. For example, "I eat an apple" and the length of the window is 3, then edges could be {I-eat, I-an, eat-an, eat-apple, an-apple} (with stop words kept). More details of constructing a word graph can be found at [TextRank](https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf).
+* **Geometric Feature Extraction**. We use the idea of the [SDG](https://github.com/DongqiFu/SDG) to obtain node embeddings. Briefy, a node's representation is aggregated based on its personalized PageRank vector weighted neighours' features. Then we call any pooling function (like sum pooling or mean pooling) to aggregate node embeddings into the graph-level representation vector for each constructed word graph.

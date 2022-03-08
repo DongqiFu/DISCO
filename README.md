@@ -22,7 +22,7 @@
 * Download the code
 * Download pre-trained word2vec model ([here](https://code.google.com/archive/p/word2vec/) or [here](https://drive.google.com/file/d/1W8EfxWRBchX_c6ShC6neZRKlokhPV4tR/view?usp=sharing)) and put it in the "pretrained-word2vec" folder
 * Run the "gui_disco.py" to get the software as shown in the demo video
-* [Optional]: you can train DISCO from the scratch as below
+* [Optional]: You can train DISCO from the scratch as below
   * First, you can put [raw fake news data](https://drive.google.com/file/d/1T798b0Qi4AB6GzOTccbsCaPmhSI_0iN9/view?usp=sharing) and [raw real news data](https://drive.google.com/file/d/15mOoPsUaI9OeWiHJ5XP-u_oDlrxzeo8z/view?usp=sharing) in "raw-dataset" folder and run "data_preprocessing.py". Then [feature_matrix.pkl](https://drive.google.com/file/d/1TtAc6rBs5rxCyvqMqjWyCtsjWfpl7Mgn/view?usp=sharing) and [label_matrix.pkl](https://drive.google.com/file/d/1Drdyr0WiCbK6KV2TXYVSdMqPvJcK2Eni/view?usp=sharing) will be automatically saved in the "preprocessed-dataset" folder.
   * Then, you can run "model_training.py" to obtain the inner classifier of DISCO, the inner classifier of DISCO will be automatically saved in the "trained-classifier" folder.
   * Now, you get the complete DISCO and could run "gui_disco.py" to get the software as shown in the demo video.

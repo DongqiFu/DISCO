@@ -27,7 +27,7 @@
   * Then, you can run "model_training.py" to obtain the inner classifier of DISCO, the inner classifier of DISCO will be automatically saved in the "trained-classifier" folder.
   * Now, you get the complete DISCO and could run "gui_disco.py" to get the software as shown in the demo video.
 
-#### 4. Techniqual Logic of DISCO
+#### 4. Technical Logic of DISCO
 
 <p align="center"> <img align="center" src="/software_architecture.png" width="525" height="323"> </p>
 

@@ -36,3 +36,24 @@
 * **Neural Detection**. We train a model-agnostic classification module as the inner classifier of DISCO.
 * **Misleading Degree Analysis**. With the support of [SDG](https://github.com/DongqiFu/SDG), we can mask any word node in the contrusted word graph and fast track the new Personalized PageRank to get the new graph-level embedding vector. Without fine-tuning the inner classifier of DISCO, we can investigate each word's contribution (positive or negative) towards the ground-truth label prediction probability.
 * [Optional]: You can access our additional [repository](https://github.com/DongqiFu/Disinfomation_Case_Study) for a more thorough disinformation study, such as different inner classifiers, truncated feature dimensions, label noise injection, etc.
+
+## Reference
+If you use the materials from this repositiory, please refer to our paper.
+```
+@article{DBLP:journals/corr/abs-2203-04928,
+  author    = {Dongqi Fu and
+               Yikun Ban and
+               Hanghang Tong and
+               Ross Maciejewski and
+               Jingrui He},
+  title     = {{DISCO:} Comprehensive and Explainable Disinformation Detection},
+  journal   = {CoRR},
+  volume    = {abs/2203.04928},
+  year      = {2022},
+  url       = {https://arxiv.org/abs/2203.04928},
+  archivePrefix = {arXiv},
+  eprint    = {2203.04928},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2203-04928.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```

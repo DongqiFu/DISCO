@@ -51,8 +51,9 @@ If you use the materials from this repositiory, please refer to our paper.
   volume    = {abs/2203.04928},
   year      = {2022},
   url       = {https://arxiv.org/abs/2203.04928},
-  archivePrefix = {arXiv},
+  eprinttype = {arXiv},
   eprint    = {2203.04928},
+  timestamp = {Thu, 10 Mar 2022 14:39:36 +0100},
   biburl    = {https://dblp.org/rec/journals/corr/abs-2203-04928.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }

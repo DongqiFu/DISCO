@@ -41,21 +41,24 @@
 ## Reference
 If you use the materials from this repositiory, please refer to our paper.
 ```
-@article{DBLP:journals/corr/abs-2203-04928,
+@inproceedings{DBLP:conf/cikm/FuBTMH22,
   author    = {Dongqi Fu and
                Yikun Ban and
                Hanghang Tong and
                Ross Maciejewski and
                Jingrui He},
+  editor    = {Mohammad Al Hasan and
+               Li Xiong},
   title     = {{DISCO:} Comprehensive and Explainable Disinformation Detection},
-  journal   = {CoRR},
-  volume    = {abs/2203.04928},
+  booktitle = {Proceedings of the 31st {ACM} International Conference on Information
+               {\&} Knowledge Management, Atlanta, GA, USA, October 17-21, 2022},
+  pages     = {4848--4852},
+  publisher = {{ACM}},
   year      = {2022},
-  url       = {https://arxiv.org/abs/2203.04928},
-  eprinttype = {arXiv},
-  eprint    = {2203.04928},
-  timestamp = {Thu, 10 Mar 2022 14:39:36 +0100},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2203-04928.bib},
+  url       = {https://doi.org/10.1145/3511808.3557202},
+  doi       = {10.1145/3511808.3557202},
+  timestamp = {Wed, 19 Oct 2022 17:09:02 +0200},
+  biburl    = {https://dblp.org/rec/conf/cikm/FuBTMH22.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
